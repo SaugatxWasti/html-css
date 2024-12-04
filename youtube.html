@@ -3,32 +3,70 @@
     <head>
         <title>Yt clone</title>
         <body>
+            <input class="search-bar" type="text" placeholder="Search">
             
-            <img  class="bali" src="waterfall.jpeg" 
-            style="width: 350px;">
+            
            
            <style>
             .bali{
                 width: 300px;
                 height: 300px;
+                
                 object-fit: contain;
                 object-position:center;
                 border-width: 2px;
                 border-style: solid;
                 border-color: blue;
+                display: block;
             }
             .search-bar{ 
                 font-size: 20px;
+                display: block;
             }
+            .video-title{
+                width: 300px;
+            }
+            .yt-intro{
+                display: inline-block;
+            }
+            .yt-preview{
+                width: 300px;
+                display: inline-block;
+                margin-right: 20px;
+            }
+          
            </style>
-           <input class="search-bar" type="text" placeholder="Search">
-           <p>
-            Best place to visit in bali!!!!
-           </p>
-           <p>Saugat Wasti</p>
-           <p>
-            3.3M views &middot; 6 months ago
-           </p>
+           
+
+           <div class="yt-preview"> 
+
+            <img  class="bali" src="waterfall.jpeg" 
+            style="width: 300px;">
+
+            <p class="video-title">
+                Best place to visit in bali!!!!
+               </p>
+               <p class="ytber-name"><strong>Saugat Wasti</strong></p>
+               <p class="stats-yt">
+                3.3M views &middot; 6 months ago
+               </p>
+          
+           </div> 
+
+           <div class="yt-preview"> 
+
+            <img  class="bali" src="beach.jpeg" 
+            style="width: 300px;">
+
+            <p class="video-title">
+                Day 02 in bali!!!!
+               </p>
+               <p class="ytber-name"><strong>Saugat Wasti</strong></p>
+               <p class="stats-yt">
+                1.3M views &middot; 3months ago
+               </p>
+          
+           </div> 
         </body>
     </head>
 </html>
